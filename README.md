@@ -12,7 +12,11 @@ Development project of cards game for WeTakeYourMoney casino. All players play c
 First of all you have to run the code in the file `main.py` and the game starts on the console! 
 
 This will ask you for a number of players! which should be exactly a number between 1 and 9.
-`How many players do you are? Only between 1 and 9 player!: 3`
+```
+♥ ♦ ♣ ♠ Welcome to the play-card game! ♥ ♦ ♣ ♠ 
+
+How many players do you are? Only between 1 and 9 player!: 3
+```
 
 Let's say that I want 3 players, so the game is going to ask me for the name of each PLayer (It can'b be the same as another player! If you both have the same name use your lastname, it is going to avoid confusions!: 
 ```
@@ -34,7 +38,7 @@ The game is over when all the players play all their cards
 
 
 - ## How does the game really works?
-The scrips is made of a object `Hangman()` which will be initialized in the `main.py` file and have the following attibrutes and functions:
+This code will control the input from the command line asking first for a number of player between 1 and 9 and t hen the name of each player which should be and single word creating a list of player. This list is passed to the `Board` object and the game starts calling its `strat_game()` method.
 
 ### Attributes:
 
