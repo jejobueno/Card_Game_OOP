@@ -7,7 +7,7 @@ Development project of cards game for WeTakeYourMoney casino. All players play c
 
 ![Card game!](https://media.giphy.com/media/3o7TKP35NXE4rWwXjW/giphy.gif)
 
-## How it works?
+## How do i play?
 
 First of all you have to run the code in the file `main.py` and the game starts on the console! 
 
@@ -15,10 +15,12 @@ This will ask you for a number of players! which should be exactly a number betw
 `How many players do you are? Only between 1 and 9 player!: 3`
 
 Let's say that I want 3 players, so the game is going to ask me for the name of each PLayer (It can'b be the same as another player! If you both have the same name use your lastname, it is going to avoid confusions!: 
-`Ok! 3 player(s)!
+```
+Ok! 3 player(s)!
 
 Please enter the name of player number 1: Jesus
-Welcome Jesus!`
+Welcome Jesus!
+```
 
 After each turn, it will print a resume of the game that looks like:
 ```
@@ -30,10 +32,8 @@ The number of cards player are: int
 
 The game is over when all the players play all their cards
 
-- ## Why?
-This is the first code I've made in becode to practice my python knowledge and object oriented programming.
 
-- ## How?
+- ## How does the game really works?
 The scrips is made of a object `Hangman()` which will be initialized in the `main.py` file and have the following attibrutes and functions:
 
 ### Attributes:
