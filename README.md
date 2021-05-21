@@ -9,7 +9,7 @@ Development project of cards game for WeTakeYourMoney casino. All players play c
 
 ## How do i play?
 
-First of all you have to run the code in the file `main.py` and the game starts on the console! 
+First of all you have to run the `main.py` and the game starts on the console! 
 
 This will ask you for a number of players! which should be exactly a number between 1 and 9.
 ```
